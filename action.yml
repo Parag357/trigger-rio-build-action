@@ -1,0 +1,8 @@
+name: Trigger RIO build
+description: 'triggers a build previously created on the platform'
+runs:
+  using: "composite"
+  steps:
+    - id: trigger
+      run: ls
+      shell: bash
