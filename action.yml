@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - id: trigger
-      run: ll
+      run: ls -l
       shell: bash
