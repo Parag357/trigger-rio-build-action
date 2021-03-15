@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - id: trigger
-      run: python trigger_build.py .github/app_config/details/build_details.yaml
+      run: ll
       shell: bash
